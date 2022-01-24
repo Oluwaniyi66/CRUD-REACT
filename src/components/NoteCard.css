@@ -1,0 +1,33 @@
+.konga {
+    color: #888ea8;
+    background-color: #eaf1ff;
+    border-bottom: 2px solid #888ea8;
+    width: 23%;
+    border-radius: 10px;
+   
+
+}
+
+.konga .note-head {
+        font-size: 16px;
+        text-align: left;
+        color: #3b3f5c;
+   
+}
+.konga .note-head1 {
+        font-size: 16px;
+        text-align: left;
+        color: #7787cc;
+   
+}
+.konga .body {
+        font-size: 14px;
+        text-align: left;
+        color: #515365;
+   
+}
+
+.konga .note-icon {
+display: flex;
+    justify-content: right;
+}

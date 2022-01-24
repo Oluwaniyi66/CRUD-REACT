@@ -1,0 +1,4 @@
+#griding {
+    display: flex;
+    flex-wrap: wrap;
+}
