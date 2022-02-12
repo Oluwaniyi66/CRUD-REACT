@@ -1,40 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Grid from './screens/Grid';
-import NavBar from './components/NavBar';
-import List from './screens/List';
-import ListView from './screens/ListView';
-import ContactContextProvider from './components/ContactContext';
-import Notes from './screens/Notes';
-import Todo from './screens/Todo';
-import Parent from './practise/Parent';
-import InvoiceList from './InvoiceApp/InvoiceList';
-import InvoicePreview from './InvoiceApp/InvoicePreview';
-import InvoiceAdd from './InvoiceApp/InvoiceAdd';
-import TodoNew from './Solomon/TodoNew';
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NavBar from "./RopoContact/NavBar";
+import List from "./RopoContact/List";
+import Grid from "./RopoContact/Grid";
+import ContactContextProvider from "./RopoContact/ContactContext";
+import InvoiceAdd from "./InvoiceApp/InvoiceAdd";
+// import User from "./CrudExam/User";
+// import Setting from "./CrudExam/Setting";
+// import InvoiceAdd from "./InvoiceApp/InvoiceAdd";
+// import Practise from "./ContextFlame/Practise";
 
 function App() {
   return (
     <div className="App">
-      <ContactContextProvider>
+        <ContactContextProvider>
 
-        <BrowserRouter>
-          {/* <NavBar /> */}
-          <Routes>
-            {/* /* <Route path='/grid' element={<ListView />} />
-            <Route path='/listview' element={<Grid />} />
-            <Route path='/note' element={<Notes />} /> */}
-          {/* <Route path='/todo' element={<Todo/>} />  */}
-          {/* <Route path='/practice' element={<Parent/>} /> */}
-          {/* <Route path='/invoice-list' element={<InvoiceList />} />
-          <Route path='/invoice-preview' element={<InvoicePreview/>} />
-          <Route path='/invoice-add' element={<InvoiceAdd/>} /> */}
-          <Route path='/' element={<TodoNew/>} /> 
+      <BrowserRouter>
+        {/* <NavBar /> */}
+        <Routes>
+          {/* <Route path="/grid" element={<Grid />} /> */}
 
-          </Routes>
-        </BrowserRouter>
-      </ContactContextProvider>
+          {/* <Route path="/list" element={<List />} /> */}
+          {/* <Route path="/user" element={<User/>} /> */}
+          {/* <Route path="/setting" element={<Setting/>} /> */}
+
+          <Route  path="/invoiceadd" element={<InvoiceAdd/>} />
+
+
+
+          
+        </Routes>
+      </BrowserRouter>
+          {/* <Practise/> */}
+        </ContactContextProvider>
     </div>
   );
 }

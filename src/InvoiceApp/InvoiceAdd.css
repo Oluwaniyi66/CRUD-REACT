@@ -1,0 +1,146 @@
+.overall {
+    background-color: #fafafa;
+}
+.inv-bg {
+ 
+    background-color: #ffffff;
+    border-radius: 5px ;
+    box-shadow: 5px 5px 5px 5px #fafafa;
+    padding: 30px;
+
+}
+.inv-bg1 {
+ 
+    background-color: #ffffff;
+    border-radius: 5px ;
+    /* padding: 20px; */
+    box-shadow: 5px 5px 5px 5px #ffffff;
+
+
+}
+.inv-right-text p{
+ font-size: 16px;
+ text-align: left;
+ color: #4361ee;
+ margin: 0;
+ /* width: 298px;
+ height: 35px; */
+ padding: 15px;
+
+}
+
+.btn-send button {
+    width: 170px;
+    height: 37px;
+}
+.inv-left-inp input[type=text]{
+     
+        border: 1px solid #BFC9D4;
+        border-radius: 4px;
+        padding: 15px;
+        width: 248px;
+        height: 42px;
+        font-size: 13px;
+        color: #C7D3E5;
+      
+}
+.inv-left-inp5 input[type=text]{
+     
+        border: 1px solid #BFC9D4;
+        border-radius: 4px;
+        padding: 15px;
+        width: 303px;
+        height: 42px;
+        font-size: 13px;
+        color: #888ea8;
+      
+}
+.inv-left-inp1 input[type=text]{
+     
+        border: 1px solid #BFC9D4;
+        border-radius: 4px;
+        padding: 15px;
+        width: 192px;
+        height: 42px;
+        font-size: 13px;
+        color: #C7D3E5;
+      
+}
+.inv-left-inp6 input[type=text]{
+     
+        border: 1px solid #BFC9D4;
+        border-radius: 4px;
+        padding: 15px;
+        width: 860px;
+        height: 88px;
+        font-size: 13px;
+        color: #C7D3E5;
+      
+}
+.inv-left-inp1 input[type=date]{
+     
+        border: 1px solid #BFC9D4;
+        border-radius: 4px;
+        padding: 15px;
+        width: 192px;
+        height: 42px;
+        font-size: 13px;
+        color: #C7D3E5;
+      
+}
+.inv-item-inp input[type=text]{
+     
+        border: 1px solid #BFC9D4;
+        border-radius: 4px;
+        padding: 15px;
+        width: 405px;
+        height: 42px;
+        font-size: 13px;
+        color: #C7D3E5;
+      
+}
+.inv-item-inp1 input[type=text]{
+     
+        border: 1px solid #BFC9D4;
+        border-radius: 4px;
+        padding: 15px;
+        width: 112px;
+        height: 42px;
+        font-size: 13px;
+        color: #C7D3E5;
+      
+}
+.inv-item-inp3 input[type=text]{
+     
+        border: 1px solid #BFC9D4;
+        border-radius: 4px;
+        padding: 15px;
+        width: 405px;
+        height: 71px;
+        font-size: 13px;
+        color: #C7D3E5;
+      
+}
+
+.inv-tp-inp input[type=text]{
+     
+    border: 1px solid #BFC9D4;
+    border-radius: 4px;
+    padding: 15px;
+    width: 248px;
+    height: 42px;
+    font-size: 13px;
+    color: #C7D3E5;
+  
+}
+
+.inv-txt {
+    color: #888ea8;
+    font-size: 14px;
+    text-align: left;
+}
+.inv-txt1 {
+    color: #515365;
+    font-size: 11px;
+    /* text-align: start; */
+}

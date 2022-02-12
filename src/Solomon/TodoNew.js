@@ -55,7 +55,7 @@ function TodoNew() {
         let updatedPayload = payload
 
         updatedPayload.splice(index, 1)
-
+            
         setPayload(updatedPayload)
         localStorage.setItem('ropotodo', JSON.stringify(updatedPayload))
         setChange(!Change)
@@ -70,7 +70,7 @@ function TodoNew() {
         setWatch(true)
 
     }
-
+        
     const handleViewmore = (id) => {
 
         setViewMore(payload[id])
@@ -87,9 +87,10 @@ function TodoNew() {
 
         payload.map((e, i) => {
             if (id === i) {
-                e.completed = e.completed == false ? true : ""
+                e.completed = e.completed == false ? true : false
             }
         })
+        
         setChange(!Change)
     }
     const Discard = () => {
